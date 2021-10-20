@@ -1,3 +1,24 @@
+// const request = new XMLHttpRequest();
+// request.open("GET", "https://stage.harbour.space/api/v1/scholarship_pages/data-science-apprenticeship-zeptolab");
+// request.send();
+// request.onload = ()=>{
+//   if(request.status === 200){
+//     // console.log(JSON.parse(request.response));
+//   } else {
+//     // console.log('error ${request.status}')
+//   }
+// }
+
+// // fetch api
+
+// fetch('https://stage.harbour.space/api/v1/scholarship_pages/data-science-apprenticeship-zeptolab')
+// .then(Response=>{
+//   return Response.json();
+// }).then(json=>{
+//   console.log(json);
+// })
+
+
 
 (function() {
   "use strict";

@@ -29,6 +29,8 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
 }
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -660,6 +662,43 @@ border-radius: 4px;
   letter-spacing: -0.33px;
  margin: 20px;
 }
+
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.accordion{
+  border: 1px solid #DADADA;
+  border-radius: 29px;
+  box-sizing: border-box;
+ 
+}
+.faq .accordion-collapse {
+  border: 0;
+  
+}
+.faq .accordion-button {
+  padding: 15px 15px 20px 0;
+  font-weight: 600;
+  border: 0;
+  font-size: 18px;
+  color: #685DC5;
+  text-align: left;
+  border-radius: 29px;
+}
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+.faq .accordion-button:not(.collapsed) {
+  background: none;
+  color: #4154f1;
+  border-bottom: 0;
+}
+.faq .accordion-body {
+  padding: 0 0 25px 0;
+  border: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
