@@ -10,7 +10,10 @@
       <link href="assets/img/favicon.png" rel="icon">
       <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
       <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
       <!-- CSS Files -->
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
       <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +41,7 @@
             <!-- .navbar -->
             <div class="header-social-links d-flex align-items-center">
                
-               <button class="btn  my-2 my-sm-0 apply-btn" type="submit"><span>Apply<br>now</span></button>
+               <button class="btn  my-2 my-sm-0 apply-btn" id="applyNow" type="submit"><span>Apply<br>now</span></button>
                <div class="eqpyby-11 fTdlle"><span><span class="header-menu-button rlfvym-0 jHaRdd"><span class="header-menu-button__menu rlfvym-2 dwrTxv"><i class="rlfvym-3 dtgGbZ"></i><i class="rlfvym-3 dtgGbZ"></i><i class="rlfvym-3 dtgGbZ"></i></span></span></span></div>
             </div>
          </div>
@@ -50,39 +53,40 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center left" data-aos="fade-up">
-          <div>
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+          
             <img style="float:right" class="icon-h" id="main-img" src="assets/img/Icon.png" alt="" />
-            
             <h1 id="main-header">Interaction Design Apprenticeship</h1>
-            <h2 class="p-01">A fully funded work-study program to launch your tech career</h2>
-            <h2 class="p-02">Harbour.Space has partnered with SCG to empower driven talent and eliminate 
+            <div>
+            <h2 class="p-01" id="p-01">A fully funded work-study program to launch your tech career</h2>
+            <h2 class="p-02" id="p-02">Harbour.Space has partnered with SCG to empower driven talent and eliminate 
               the barriers to accessing exceptional education and career opportunities through a Masters Fellowship.
-           </h2 class="p-03">
-            <h2>Position: Marketing Performance</h2>
+           </h2 >
+            <h2 class="p-03" id="p-03"><b>Position:</b> Marketing Performance</h2>
             
             <a href="#about" class="btn-get-started scrollto">Apply Now</a>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img right" data-aos="fade-left">
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
           
            <!-- right side -->
            <div class="col-md-6 col-sm-12">
             <div class="row">
                <div class="col">
-                  <img class="logo-style" src="assets/img/Logo.svg" alt="" />
+                  <img  id="logo-img" class="logo-style" src="assets/img/Logo.svg" alt="" />
                </div>
                <div class="col">
-                  <div class="row powered">
+                  <div class="row powered" id="pow">
                      Powered by:<br/>
                     
                   </div>
-                  <div class="row logo-text">
+                  <div class="row logo-text" id="pow1">
                      Zeptolab
                   </div>
                </div>
             </div>
-            <div class="">
+           
+            
                <div class="row regtangel1 text-all" id="reg1">
                   <div class="col reg-text">
                      Application closes in
@@ -110,7 +114,8 @@
                      </div>
                   </div>
                </div>
-            </div>
+            
+
          </div>
         </div>
       </div>
@@ -126,10 +131,8 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-6" data-aos="zoom-in">
-                     <img src="assets/img/circle-pattern.svg" alt="" style="top: 0;" />
-                     <img class="rounded-circle" src="assets/img/photo-profile.png" alt="" style="position: absolute;
-                        top: 30px;
-                        left: 43px;" />
+                     <img id="rounded-circle" src="assets/img/circle-pattern.svg" alt=""  />
+                     <img id="profile-img" class="rounded-circle" src="assets/img/photo-profile.png" alt=""  />
                     
                   </div>
                   <div class="col-lg-6 d-flex flex-column justify-contents-center">
@@ -274,7 +277,9 @@
                   This Fellowship was a turning point in my career. 
                   I wouldn’t be where I am today without the financial 
                   support and experienced offered through the program.<br> <br>
-                  <span>Education·B.A. Visual Design</span> 
+                  <small>
+                     Education·B.A. Visual Design
+                 </small>
                 </p>
                 
               </div>
@@ -302,7 +307,9 @@
                   This Fellowship was a turning point in my career. 
                   I wouldn’t be where I am today without the financial 
                   support and experienced offered through the program.<br> <br>
-                  <span>Education·B.A. Visual Design</span> 
+                  <small>
+                     Education·B.A. Visual Design
+                 </small>
                 </p>
                 
               </div>
@@ -330,7 +337,10 @@
                   This Fellowship was a turning point in my career. 
                   I wouldn’t be where I am today without the financial 
                   support and experienced offered through the program.<br> <br>
-                  <span>Education·B.A. Visual Design</span>
+                  <!-- <span>Education·B.A. Visual Design</span> -->
+                  <small>
+                     Education·B.A. Visual Design
+                 </small>
                 </p>
                 
               </div>
@@ -349,99 +359,54 @@
          <!-- ======= F.A.Q Section ======= -->
          <section id="faq" class="faq" >
             <div class="container" id="faqsecton">
-               <!-- <div class="section-title">
-                  <div class="row">
-                     <div class="col">
-                        <h2 style="color: #685DC5;">Frequently Asked Questions</h2>
-                     </div>
-                     <div class="col">
-    
-                     
-
-                     
-                     
-                        <ul class="faq-list">
-                           <li>
-                            <span>Filter by:</span>
-                              <div data-bs-toggle="collapse" class="collapsed question" data-toggle="dropdown" href="#list1">
-                                <a class="btn btn-outline-secondary dropdown-toggle btn-list" href="#list1" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Program conditions
-                                </a>
-                                 <i class="bi bi-chevron-down icon-show"></i>
-                                 <i class="bi bi-chevron-up icon-close"></i>
-                              </div>
-                              <div id="list1" class="collapse" data-bs-parent=".faq-list">
-                                 <ul class="list-group list-unstyled">
-                                    <li>All</li>
-                                    <li>Admissions</li>
-                                    <li>Harbour Space</li>
-                                    <li>SCG</li>
-                                    <li>Living in Bankok</li>
-                                 </ul>
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
+             
+         <div class="row" style="border-bottom: 1px solid #E6E6E6; margin-bottom: 25px;">
+            <div class="col-lg-6">
+              <!-- F.A.Q List 1-->
+              <h2 style="color: #685DC5;">Frequently Asked Questions</h2>
+        
+            </div>
+            <div class="col-md-2">
+              <!-- F.A.Q List 1-->
+              
+        
+              <span>Filter by:</span>
+            </div>
+            <div class="col-lg-4" style="border-radius: 29px;border: 1px solid #DADADA;margin-bottom: 25px;">
+              <!-- F.A.Q List 1-->
+              <div class="accordion accordion-flush" id="faqlist1" >
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                       Program conditions
+                    </button>
+                  </h2>
+                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                    <div class="accordion-body">
+                      <ul class="list-group list-unstyled">
+                       <li>All</li>
+                       <li>Admissions</li>
+                       <li>Harbour Space</li>
+                       <li>SCG</li>
+                       <li>Living in Bankok</li>
+                    </ul>
+                    </div>
                    
                   </div>
-                
-               </div> -->
-
-
-               <div class="row">
-                  <div class="col-lg-6">
-                    <!-- F.A.Q List 1-->
-                    <h2 style="color: #685DC5;">Frequently Asked Questions</h2>
-              
-                  </div>
-                  <div class="col-md-2">
-                    <!-- F.A.Q List 1-->
-                    
-              
-                    <span>Filter by:</span>
-                  </div>
-                  <div class="col-lg-4">
-                    <!-- F.A.Q List 1-->
-                    <div class="accordion accordion-flush" id="faqlist1">
-                      <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                             Program conditions
-                          </button>
-                        </h2>
-                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                          <div class="accordion-body">
-                            <ul class="list-group list-unstyled">
-                             <li>All</li>
-                             <li>Admissions</li>
-                             <li>Harbour Space</li>
-                             <li>SCG</li>
-                             <li>Living in Bankok</li>
-                          </ul>
-                          </div>
-                         
-                        </div>
-                      </div>
-           
-             
-           
-                     
-           
-                    </div>
-                  </div>
-           
-                  
-           
-                  
-           
                 </div>
+     
+     
+              </div>
+            </div>
+     
+          </div>
 
                <div class="faq-style">
-                  <div class="row">
+                  <div class="row" style="border-bottom: 1px solid #E6E6E6; margin-bottom: 25px;">
                      <div class="col-md-4" style="color: #685DC5;">
                         Program conditions
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-sm-12">
                         <p style="font-weight:bold;">What are my obligations? </p>
                         <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                            <p>
@@ -452,7 +417,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="col-md-2">
+                     <div class="col-md-2 col-sm-12">
                         <ul class="faq-list">
                            <li>
                               <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
@@ -464,11 +429,11 @@
                      </div>
                   </div>
                 
-                  <div class="row">
-                     <div class="col-md-4" style="color: #685DC5;"> 
+                  <div class="row" style="border-bottom: 1px solid #E6E6E6;margin-bottom: 25px;">
+                     <div class="col-md-4 col-sm-12" style="color: #685DC5;"> 
                         Program conditions
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-sm-12">
                         <p style="font-weight:bold;">
                            Do I get a job placement upon graduation?
                         </p>
@@ -481,7 +446,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="col-md-2">
+                     <div class="col-md-2 col-sm-12">
                         <ul class="faq-list">
                            <li>
                               <div data-bs-toggle="collapse" class="collapsed question" href="#faq2">
@@ -492,12 +457,12 @@
                         </ul>
                      </div>
                   </div>
-                 
-                  <div class="row">
-                     <div class="col-md-4" style="color: #685DC5;">
+              
+                  <div class="row" style="border-bottom: 1px solid #E6E6E6;margin-bottom: 25px;">
+                     <div class="col-md-4 col-sm-12" style="color: #685DC5;">
                         Program conditions
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-sm-12">
                         <p style="font-weight:bold;">
                            What if I want to start my own company? 
                         </p>
@@ -510,7 +475,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="col-md-2">
+                     <div class="col-md-2 col-sm-12">
                         <ul class="faq-list">
                            <li>
                               <div data-bs-toggle="collapse" class="collapsed question" href="#faq3">
@@ -522,11 +487,11 @@
                      </div>
                   </div>
                
-                  <div class="row">
-                     <div class="col-md-4" style="color: #685DC5;">
+                  <div class="row" style="border-bottom: 1px solid #E6E6E6;margin-bottom: 25px;">
+                     <div class="col-md-4 col-sm-12" style="color: #685DC5;">
                         Program conditions
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-sm-12">
                         <p style="font-weight:bold;">Do I need a visa?</p>
                         <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                            <p>
@@ -537,7 +502,7 @@
                            </p>
                         </div>
                      </div>
-                     <div class="col-md-2">
+                     <div class="col-md-2 col-sm-12">
                         <ul class="faq-list">
                            <li>
                               <div data-bs-toggle="collapse" class="collapsed question" href="#faq4">
@@ -552,15 +517,26 @@
                         </ul>
                      </div>
                   </div>
-               
+
+
+
+
+
+
                </div>
               
             </div>
+
+
+           
+
+
+
          </section>
          <!-- End Frequently Asked Questions Section -->
 
 
-         
+
       </main>
       <!-- End #main -->
       <!-- ======= Footer ======= -->
@@ -577,7 +553,6 @@
          </div>
       </footer>
       <!-- End Footer -->
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
       <!-- JS Files -->
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
