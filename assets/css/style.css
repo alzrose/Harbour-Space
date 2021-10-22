@@ -492,7 +492,7 @@ letter-spacing: -0.18px;
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .section-bg {
@@ -521,10 +521,10 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 0;
-  margin-top: 40px;
+  margin-top: 72px;
 }
 .rounded-circle{
-  position: absolute;
+position: absolute;
 top: 30px;
 left: 43px;
 }
@@ -537,12 +537,72 @@ left: 43px;
   .about .container {
     padding: 30px;
   }
- #rounded-circle{
+
+#descp{
+
+width: 285px;
+height: 208px;
+left: 45px;
+top: 1838px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+/* or 144% */
+
+letter-spacing: -0.27px;
+
+color: #535353;
+}
+
+#featurette-heading{
+
+height: 80px;
+left: 0%;
+right: 0%;
+top: calc(50% - 80px/2 - 121px);
+
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 40px;
+/* or 114% */
+
+letter-spacing: -0.4375px;
+
+color: #685DC5;
+
+}
+#aboutstyle{
+ 
+  /* width: 334px;
+
+  left: 20px;
+  top: 1547px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+   */
+
+}
+/* #about-bg{
+
+  width: 376px;
+  height: 401px;
+  left: -1px;
+  top: 1559px;
+  
+  background: #685DC5;
+} */
+ #rounde-circle{
  
 width: 300px;
 height: 300px;
 left: 10px;
-top: 1392px;
+/* top: 1392px; */
 
 
 border: 1px solid #E6E6E6;
@@ -553,10 +613,10 @@ border-radius: 170px;
   width: 270px;
   height: 270px;
   left: 27px;
-  top: 26px;
+  top: 16px;
 }
   }
-}
+
 .about .content h3 {
   font-weight: 400;
   font-size: 32px;
@@ -658,6 +718,7 @@ border-radius: 170px;
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
 .pricing .box {
   padding: 30px;
   /* border: 1px solid #3f454b; */
@@ -674,6 +735,10 @@ border-radius: 170px;
   border: 1px solid #d8dadb;
 
 
+}
+.col1-price{
+  width: 320px;
+   height: 524px;
 }
 .pricing h3 {
   font-weight: 400;
@@ -750,7 +815,28 @@ border-radius: 4px;
   background: #009cea;
   color: #fff;
 }
+@media (max-width: 992px) {
+  .box {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #hrdivider{
+    position: relative;
+    /* margin-bottom: 20px; */
+    width: 388px;
+    text-align: center
+  }
+  #box3{
+    width: 357px;
+    height: 233px;
+  }
+}
 
+.box-last{
+  width: 680px;
+  height: 178px;
+  margin-top: 27px;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
